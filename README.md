@@ -42,9 +42,8 @@ Because `MarkdownConverter` is built as a single, self-contained HTML/CSS/JavaSc
 This project integrates three world-class open-source libraries (licensed under MIT), which are referenced at the bottom of the HTML file:
 
 1. **[Marked](https://github.com/markedjs/marked)** (v18.1.1) – For lightning-fast Markdown tokenization and HTML rendering.
-2. **[Docx.js](https://github.com/dolanmiu/docx)** (v8.5.0) – For generating native Microsoft Word documents from scratch.
-3. **[html2pdf.js](https://github.com/eKoopmans/html2pdf.js)** (v0.10.1) – For stable, client-side PDF rendering using html2canvas and jsPDF.
-
+2. **[html2pdf.js](https://github.com/eKoopmans/html2pdf.js)** (v0.10.1) – For stable, client-side PDF rendering using html2canvas and jsPDF.
+3. **[Docx.js](https://github.com/dolanmiu/docx)** (v8.5.0) – For generating native Microsoft Word documents from scratch.
 
 
 
@@ -55,8 +54,8 @@ If you prefer to use a Content Delivery Network (CDN), you can simply replace th
 ```html
 <!-- Alternative: Load libraries via jsDelivr CDN -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/18.1.1/lib/marked.umd.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/docx@8.5.0/build/index.umd.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/docx@8.5.0/build/index.umd.min.js"></script>
 ```
 
 ---
