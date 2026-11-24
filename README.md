@@ -1,14 +1,14 @@
-# Markdownconverter 📝
+# MarkdownConverter 📝
 
 > **Single-file, 100% local Markdown converter directly in your browser.**
 
-`Markdownconverter` runs entirely on the client side to instantly convert your Markdown files or pasted text into beautiful, clean HTML, print-ready PDFs, or native Microsoft Word (.docx) documents. No server, no installation, maximum privacy.
+`MarkdownConverter` runs entirely on the client side to instantly convert your Markdown files or pasted text into beautiful, clean HTML, print-ready PDFs, or native Microsoft Word (.docx) documents. No server, no installation, maximum privacy.
 
 ---
 
 ## 🔒 100% Local, Private & Secure
 
-Because `Markdownconverter` is built as a single, self-contained HTML/CSS/JavaScript file, it requires no external backend server and values your privacy.
+Because `MarkdownConverter` is built as a single, self-contained HTML/CSS/JavaScript file, it requires no external backend server and values your privacy.
 
 * **Run Anywhere, 100% Offline:** Open the file in any modern web browser. No internet connection, local server setups, or complex command-line configurations are required.
 * **No Data Uploads:** Your sensitive documents never touch a server. All tokenization, parsing, formatting, and file exports are executed purely in your browser's local memory.
