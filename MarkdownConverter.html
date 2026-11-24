@@ -44,12 +44,10 @@
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     SOFTWARE.
     =========================================================================== -->
-
-
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Markdownconverter</title>
+        <title>MarkdownConverter</title>
         <style>
             * {
                 box-sizing: border-box;
@@ -145,7 +143,7 @@
             }
             #output blockquote {
                 border-left: 4px solid #2563eb;
-                margin: 16px 0; hardware;
+                margin: 16px 0;
                 padding: 4px 16px;
                 color: #475569;
                 background-color: #f8fafc;
@@ -278,7 +276,7 @@
     </head>
     <body>
         <div id="header">
-            <h1>Markdownconverter (Markdown to HTML, PDF and Word)</h1>
+            <h1>MarkdownConverter (Markdown to HTML, PDF and Word)</h1>
             <div class="drop-zone" id="dropZone">
                 <p>📁 Drag and drop Markdown file here or click to select</p>
                 <input type="file" id="fileInput" accept=".md,.txt,.markdown" />
@@ -369,7 +367,7 @@
                     const element = document.getElementById("output");
                     const opt = {
                         margin: 15,
-                        filename: "document.pdf",
+                        filename: "MarkdownConverter.pdf",
                         image: { type: "jpeg", quality: 0.98 },
                         html2canvas: { scale: 2, useCORS: true },
                         jsPDF: { unit: "mm", format: "a4", orientation: "portrait" },
@@ -545,7 +543,7 @@
                     const url = URL.createObjectURL(blob);
                     const a = document.createElement("a");
                     a.href = url;
-                    a.download = "document.docx";
+                    a.download = "MarkdownConverter.docx";
                     document.body.appendChild(a);
                     a.click();
                     document.body.removeChild(a);
@@ -581,7 +579,7 @@
                 const url = URL.createObjectURL(blob);
                 const a = document.createElement("a");
                 a.href = url;
-                a.download = "document.html";
+                a.download = "MarkdownConverter.html";
                 document.body.appendChild(a);
                 a.click();
                 document.body.removeChild(a);
@@ -596,6 +594,7 @@
                 currentMarkdown = "";
             });
         </script>
+     
         
 <script>
             
@@ -633,8 +632,6 @@
 //# sourceMappingURL=/sm/f3cd2a4d0636a2acc3b21eb75e4e903f9d30a63b2941e5c37fbaf96fd6411208.map
             
 </script>           
-
-
 
 
     </body>
