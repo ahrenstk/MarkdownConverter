@@ -52,7 +52,7 @@ This project integrates three world-class open-source libraries (licensed under 
 If you prefer to use a Content Delivery Network (CDN), you can simply replace the inline-bundled library code near the bottom of the HTML file with these script tags:
 
 ```html
-<!-- Alternative: Load libraries via jsDelivr CDN -->
+<!-- Alternative: Load libraries via Cloudflare and jsDelivr CDN -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/18.1.1/lib/marked.umd.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/docx@8.5.0/build/index.umd.min.js"></script>
